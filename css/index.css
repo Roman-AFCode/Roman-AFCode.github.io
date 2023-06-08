@@ -1,0 +1,130 @@
+html,
+body {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: Montserrat;
+  background-color: #fcfcfc;
+  color: #2d2e32;
+}
+
+a {
+  text-decoration: none;
+  color: #2d2e32;
+}
+
+h3,
+h5 {
+  font-family: "JetBrains Mono";
+  margin: 0;
+  color: #6757c2;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.head {
+  width: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #fcfcfc;
+  font-family: "JetBrains Mono";
+  font-size: 13px;
+  color: #2d2e32;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.git-link {
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+.link-me {
+  margin-right: 10px;
+  font-size: 30px;
+  transition: color 0.3s;
+}
+
+.link-me:hover {
+  color: #6b8e23;
+}
+
+.me-img {
+  width: fit-content;
+  height: 400px;
+  /* justify-self: center; */
+  /* overflow: hidden; */
+
+  /* не работает =((((
+    доделать не успел */
+  /* border: 10px solid #fcfcfc;
+  box-shadow: ; 2px 5px 10px rgba(0, 0, 0, 0.5)
+
+  animation: me-img-anemate 5s infinit alternate; */
+}
+
+/* @keyframes me-img-anemate {
+  0% {
+    border-radius: 97% 3% 97% 3% / 3% 97% 3% 97% ;
+  }
+  20% {
+    border-radius:81% 19% 86% 14% / 12% 83% 17% 88% ;
+  }40% {
+    border-radius: 65% 35% 81% 19% / 34% 67% 33% 66% ;
+  }60% {
+    border-radius: 54% 46% 50% 50% / 51% 35% 65% 49% ;
+  }80% {
+    border-radius: 41% 59% 33% 67% / 63% 24% 76% 37% ;
+  }
+  100% {
+    border-radius: 33% 67% 17% 83% / 78% 18% 82% 22% ;
+  }
+} */
+
+.about {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.experience {
+  text-align: center;
+}
+
+.work {
+  text-align: center;
+}
+
+.contacts {
+  text-align: center;
+}
+
+.bottom-links {
+  text-align: center;
+}
+
+.footer {
+  margin: 40px;
+  text-align: center;
+}
